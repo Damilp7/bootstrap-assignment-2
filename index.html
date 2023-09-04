@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project 2</title>
+  <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:wght@600;700;900&family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+
+<style>
+  body{
+    font-family: Barlow !important;
+  }
+
+  .background{
+    background-image:url(images/desktop/image-header.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>
+</head>
+<body>
+<div class="background">
+  <nav class="navbar navbar-expand-md ps-2 pe-2">
+      <a href="#" class="navbar-brand fw-bold text-light">sunnyside</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation" ><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav" style= "font-size: 0.75rem;">
+          <li class="nav-item fw-bold"><a href="#" class="nav-link text-light">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-light">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-light">Projects</a></li>
+          <li class="nav-item"><a href="#" class="nav-link btn btn-light active fw-bold pe-3 ps-3" style="border-radius: 15px; font-size: .60rem;">CONTACT</a></li>
+        </ul>
+      </div>
+  </nav>
+  <div class="h1 d-flex justify-content-center align align-self-center text-light">WE ARE CREATIVES</div>
+</div>
+<div class="container-fluid">
+  <div class="d-flex">
+    <div class="box col-6 align-self-center justify-content-evenly p-5">
+      <h2>Transform your brand</h2>
+      <p class="">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a href="#" class="link-underline-warning link-dark fw-bold">LEARN MORE</a>
+    </div>
+    <div class="box col-6"><img class="img-fluid" src="images/desktop/image-transform.jpg" alt=""></div>
+  </div>
+  <div class="d-flex">
+    <div class="box col-6"><img class="img-fluid" src="images/desktop/image-stand-out.jpg" alt=""></div>
+    <div class="box col-6 align-self-center p-5">
+      <h2>Transform your brand</h2>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a href="#" class="link-underline-danger link-dark fw-bold">LEARN MORE</a>
+    </div>
+  </div>
+
+  <div class="d-flex">
+    <div class="card col-6 border-0">
+      <img class="img-fluid" src="images/desktop/image-graphic-design.jpg" alt="">
+      <div class="card-body card-img-overlay text-center p-5 justify-content-end d-flex flex-column">
+        <h2 class="card-title">Graphic Design</h2>
+        <p class="card-text">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention.</p>
+      </div>
+    </div>
+    <div class="card col-6 border-0">
+      <img class="img-fluid" src="images/desktop/image-photography.jpg" alt="">
+      <div class="card-body card-img-overlay text-center p-5 d-flex flex-column justify-content-end">
+        <h2 class="card-title">Photography</h2>
+        <p class="card-text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center mt-5 pt-5">
+    <h4 class="">CLIENT TESTIMONIALS</h4>
+  </div>
+
+  <div class="d-flex mt-5">
+    <div class="card col-4 border-0">
+      <img class="img-fluid d-flex justify-content-center align-self-center rounded-circle" src="images/image-emily.jpg" alt="" style="width: 5rem;">
+      <div class="card-body text-center pt-4 justify-content-center d-flex flex-column">
+        <p class="card-text fw-bold text-secondary">We put our trust in Sunnyside and they delivered making sure our needs were met and deadlines were always hit.</p>
+      </div>
+      <div class="d-flex flex-column author justify-content-center align-self-center text-center mt-5">
+        <h5 class="author-name fw-bold">Emily R.</h5>
+        <p class="author-role text-body-tertiary">Marketing director</p>
+      </div>
+    </div>
+    <div class="card col-4 border-0">
+      <img class="img-fluid d-flex justify-content-center align-self-center rounded-circle" src="images/image-thomas.jpg" alt="" style="width: 5rem;">
+      <div class="card-body text-center pt-5 justify-content-center d-flex flex-column">
+        <p class="card-text text-secondary fw-bold">Sunnyside's enthusiasm couple with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+      </div>
+      <div class="d-flex flex-column author justify-content-center align-self-center text-center mt-5">
+        <h5 class="author-name fw-bold">Thomas S.</h5>
+        <p class="author-role text-body-tertiary">Chief Operating Officer</p>
+      </div>
+    </div>
+    <div class="card col-4 border-0 ">
+      <img class="img-fluid d-flex justify-content-center align-self-center rounded-circle" src="images/image-jennie.jpg" alt="" style="width: 5rem;">
+      <div class="card-body text-center pt-5 justify-content-center d-flex flex-column">
+        <p class="card-text fw-bold text-secondary">Incredible end result! Our sales increased over 400% when we worked with Sunnyside.<br>Highly recommended!</p>
+      </div>
+      <div class="d-flex flex-column author justify-content-center align-self-center text-center mt-5">
+        <h5 class="author-name fw-bold">Jennie F.</h5>
+        <p class="author-role text-secondary">Business Owner</p>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <div class="card mt-5 pt-5 border-0">
+    <div class="card-body">
+      <div class="hstack">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" class="img-fluid col-12 col-md-3"/>
+        <img src="images/desktop/image-gallery-orange.jpg" class="img-fluid col-12 col-md-3"/>
+        <img src="images/desktop/image-gallery-cone.jpg" class="img-fluid col-12 col-md-3"/>
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" class="img-fluid col-12 col-md-3"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex bg-info pt-5">
+    <h2 class="fw-bold col-12 text-center">sunnyside</h2>
+    <div class="d-flex justify-content-center p-5">
+      <a class="fw-bold text-center link-success me-5 text-decoration-none">About</a>
+      <a class="fw-bold text-center me-5 link-success text-decoration-none fw-bold">Services</a>
+      <a class="fw-bold text-center link-success text-decoration-none">Projects</a>
+    </div>
+  </div>
+  
+
+</div>
