@@ -11,10 +11,11 @@
 
   .background{
     background-image:url(images/desktop/image-header.jpg);
-    height: 50vh;
+    min-height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
   }
   .my-nav-button{
   background-color: white !important;
@@ -29,7 +30,7 @@
   
 </head>
 <body>
-  <div class="background align-content-around  align-items-center justify-content-center pb-5">
+  <div class="background align-content-around  align-items-center justify-content-center pb-5 container-fluid">
 
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
@@ -58,21 +59,21 @@
 
 <div class="container-fluid d-flex">
   <div class="row g-0">
-    <div class="col col-md-6 col-sm-12 d-flex flex-column justify-content-center p-5 gap-4">
+    <div class="col col-md-6 col-12 d-flex flex-column justify-content-center p-5 gap-4">
       <h3 style="font-family: Fraunces; font-weight: 900; font-size: 28px;">Transform your brand</h3>
           <p style="font-family: Barlow; font-size: 18px;">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
           <a href="#" class=" link-dark link-underline-warning" style="font-family: Barlow; font-weight: 900; font-size: 20px;">LEARN MORE</a>
       <p></p>
     </div>
-    <div class="col col-md-6 col-sm-12 d-flex"><img src="images/desktop/image-transform.jpg" alt="" class="img-fluid"></div>
-    <div class="col col-lg-6 col-sm-12 d-flex"><img src="images/desktop/image-stand-out.jpg" alt="" class="img-fluid"></div>
+    <div class="col col-md-6 col-12 d-flex"><img src="images/desktop/image-transform.jpg" alt="" class="img-fluid"></div>
+    <div class="col col-md-6 col-12 d-flex"><img src="images/desktop/image-stand-out.jpg" alt="" class="img-fluid"></div>
 
-    <div class="col col-md-6 col-sm-12 d-flex flex-column justify-content-center p-5 gap-4">
+    <div class="col col-md-6 col-12 d-flex flex-column justify-content-center p-5 gap-4">
       <h3 style="font-family: Fraunces; font-weight: 900; font-size: 28px;">Stand out to the right audience</h3>
       <p class="text-secondary" style="font-family: Barlow; font-size: 18px;">Using a collaborative formula of designers, researchers, photographers, and copywriters, we'll build and extend your brand in digital places.</p>
       <a href="#" class=" link-dark link-underline-danger" style="font-family: Barlow; font-weight: 900; font-size: 20px;">LEARN MORE</a> 
     </div>
-    <div class="col col-md-6 col-sm-12 d-flex border-0 m-0">
+    <div class="col col-md-6 col-12 d-flex border-0 m-0">
       <div class="card m-0 border-0 g-0">
         <img src="images/desktop/image-graphic-design.jpg" alt="" class="card-img">
         <div class="card-body card-img-overlay d-flex flex-column justify-content-end pt-5 pb-5 text-center gap-1" style="color: hsl(167, 40%, 24%);">
@@ -81,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="col col-md-6 col-sm-12 d-flex m-0 border-0">
+    <div class="col col-md-6 col-12 d-flex m-0 border-0">
       <div class="card m-0 border-0 g-0" >
         <img src="images/desktop/image-photography.jpg" alt="" class="card-img">
         <div class="card-body card-img-overlay d-flex flex-column justify-content-end pt-5 pb-5 text-center gap-1" style="color: hsl(198, 62%, 26%);">
@@ -94,8 +95,8 @@
       
         <div class="col-12 text-center mt-5 pt-5 h5 text-secondary" style="font-family: Fraunces;">CLIENT TESTIMONIALS</div>
 
-      <div class="d-flex mt-5 col-sm-12 flex-sm-column flex-md-row">
-        <div class="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-self-center text-center">
+      <div class="d-flex mt-5 col-12 flex-column flex-md-row">
+        <div class="col-md-4 col-12 d-flex flex-column justify-content-center align-self-center text-center">
           <div class="card border-0">
             <img class="img-fluid d-flex justify-content-center align-self-center rounded-circle" src="images/image-emily.jpg" alt="" style="width: 5rem;">
             <div class="card-body text-center pt-5 justify-content-center d-flex flex-column">
@@ -107,7 +108,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 d-flex flex-column">
+        <div class="col-md-4 col-12 d-flex flex-column">
           <div class="card border-0">
             <img class="img-fluid d-flex justify-content-center align-self-center rounded-circle" src="images/image-thomas.jpg" alt="" style="width: 5rem;">
             <div class="card-body text-center pt-5 justify-content-center d-flex flex-column">
@@ -119,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12 d-flex flex-column mb-sm-5">
+        <div class="col-md-4 col-12 d-flex flex-column mb-sm-5">
           <div class="card border-0 ">
             <img class="img-fluid d-flex justify-content-center align-self-center rounded-circle" src="images/image-jennie.jpg" alt="" style="width: 5rem;">
             <div class="card-body text-center pt-5 justify-content-center d-flex flex-column">
@@ -134,10 +135,10 @@
       </div>
       <!--End of Testimonial Section-->
       
-        <div class="col-md-3 col-sm-6"><img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="img-fluid"></div>
-        <div class="col-md-3 col-sm-6"><img src="images/desktop/image-gallery-orange.jpg" alt="" class="img-fluid"></div>
-        <div class="col-md-3 col-sm-6"><img src="images/desktop/image-gallery-cone.jpg" alt="" class="img-fluid"></div>
-        <div class="col-md-3 col-sm-6"><img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" class="img-fluid"></div>
+        <div class="col-md-3 col-6"><img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="img-fluid"></div>
+        <div class="col-md-3 col-6"><img src="images/desktop/image-gallery-orange.jpg" alt="" class="img-fluid"></div>
+        <div class="col-md-3 col-6"><img src="images/desktop/image-gallery-cone.jpg" alt="" class="img-fluid"></div>
+        <div class="col-md-3 col-6"><img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" class="img-fluid"></div>
       
       <!-- End of Image gallery -->
       <div style="background-color:hsla(168, 91%, 65%, 0.778)" class="pb-5">
